@@ -10,7 +10,7 @@ const Geography = () => {
   const theme =useTheme();
   const {data} = useGetGeographyQuery();
 
-  console.log('dataGrography: ', data)
+ 
 
 
   return (
