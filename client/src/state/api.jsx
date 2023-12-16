@@ -5,7 +5,7 @@ import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 // Crear una instancia de la API utilizando createApi
 export const api = createApi({
     // Configuración de la consulta base utilizando fetchBaseQuery
-    baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:5001'}),
+    baseQuery: fetchBaseQuery({baseUrl: 'https://admin-backend-bs1y.onrender.com'}),
     // Nombre del slice de Redux que se creará para almacenar los resultados de la API
     reducerPath:'adminApi',
      // Definir tipos de etiquetas que se usarán para gestionar el estado de la caché
