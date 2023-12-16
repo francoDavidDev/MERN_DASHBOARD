@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 import { configureStore } from '@reduxjs/toolkit'
-import globalReducer from './state/ashee.js'
+import globalReducer from './state/index.js'
 import { Provider } from 'react-redux'
 
 
