@@ -3,7 +3,7 @@ import { LightModeOutlined,DarkModeOutlined,Menu as MenuIcon, Search, SettingsOu
 
 //import FlexBetween from './FlexBetween';
 import { useDispatch } from 'react-redux';
-import { setMode } from '../state/index'
+import { setMode } from '../state/ashee'
 import profileImage from '../assets/profile.jpeg'
 //import { useTheme } from '@emotion/react';
 import { Box,Typography,AppBar, Button, IconButton, InputBase, Toolbar,useTheme, MenuItem,Menu } from '@mui/material';
